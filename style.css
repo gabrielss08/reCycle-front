@@ -241,3 +241,48 @@ footer .coluna > a{
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
+
+footer .coluna >a:hover{
+    color: #0d272d;
+}
+
+.copyright{
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    color: #fff;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+@media (width < 900px) {
+    .nav-links{
+        display: none;
+    }
+    header{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header .imagem{
+        grid-area: 1/1/2/2;
+    }
+    .sobre{
+        grid-template-columns: repeat(2,1fr);
+    }
+    footer{
+        grid-template-columns: 1fr 200px;
+    }
+}
+
+@media (width <600px){
+    header .imagem::before{
+        display: none;
+    }
+
+    .sobre{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer{
+        grid-template-columns: 1fr 150px;
+    }
+}
