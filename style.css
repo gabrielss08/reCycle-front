@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     outline: none;
@@ -6,21 +6,21 @@
     box-sizing: border-box;
 }
 
-img{
+img {
     width: 100%;
     display: flex;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     background-color: #aaaaaa;
 }
 
-nav{
+nav {
     max-width: 1200px;
     margin: auto;
     padding: 2rem 1rem;
@@ -30,24 +30,24 @@ nav{
     gap: 2rem;
 }
 
-.logo{
+.logo {
     max-width: 100px;
 }
 
-.nav-links{
+.nav-links {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 3rem;
 }
 
-.link a{
+.link a {
     position: relative;
     padding-bottom: 0.75rem;
     color: #fff;
 }
 
-.link a::after{
+.link a::after {
     content: "";
     position: absolute;
     height: 2px;
@@ -58,11 +58,11 @@ nav{
     transition: all 0.3s ease;
 }
 
-.link a:hover::after{
+.link a:hover::after {
     width: 70%;
 }
 
-.btn{
+.btn {
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
@@ -72,23 +72,23 @@ nav{
     transition: all 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #008000;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
 }
 
-.blur{
+.blur {
     position: absolute;
     box-shadow: 0 0 1000px 50px #008000;
     z-index: -100;
 }
 
-header{
+header {
     position: relative;
     padding-top: 2rem;
     display: grid;
@@ -97,14 +97,14 @@ header{
     gap: 2rem;
 }
 
-header .content h4{
+header .content h4 {
     margin-bottom: 1rem;
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
 }
 
-header .con h1{
+header .con h1 {
     color: #fff;
     margin-bottom: 1rem;
     font-size: 3rem;
@@ -112,26 +112,26 @@ header .con h1{
     line-height: 4rem;
 }
 
-header .content h1 span{
+header .content h1 span {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
 
-header .content p{
+header .content p {
     margin-bottom: 2rem;
     color: #ccc;
 }
 
-header .imagem{
+header .imagem {
     position: relative;
 }
 
-header .imagem img{
+header .imagem img {
     max-width: 600px;
     margin: auto;
 }
 
-section .header{
+section .header {
     margin-bottom: 1rem;
     color: #fff;
     text-align: center;
@@ -139,14 +139,14 @@ section .header{
     font-weight: 600;
 }
 
-.sobre{
+.sobre {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;    
+    gap: 2rem;
 }
 
-.sobre .card{
+.sobre .card {
     background-color: #0d272d;
     padding: 1rem;
     border: 2px solid transparent;
@@ -154,12 +154,12 @@ section .header{
     transition: all 0.3s ease;
 }
 
-.sobre .card:hover{
+.sobre .card:hover {
     background-color: #303030;
     border-color: #fff;
 }
 
-.sobre .card span{
+.sobre .card span {
     display: inline-block;
     background-color: #008000;
     padding: 2px 9px;
@@ -169,24 +169,24 @@ section .header{
     border-radius: 5px;
 }
 
-.sobre .card h4{
+.sobre .card h4 {
     margin-bottom: 0.5rem;
     color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-.sobre .card p{
+.sobre .card p {
     color: #ccc;
     margin-bottom: 2rem;
 }
 
-.sobre .card a{
+.sobre .card a {
     color: #fff;
     transition: all 0.3s ease;
 }
 
-.sobre .card a:hover{
+.sobre .card a:hover {
     color: #008000;
 }
 
@@ -204,54 +204,54 @@ article {
     transform-origin: center;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
-  }
-  
-  article a::after {
+}
+
+article a::after {
     position: absolute;
     inset-block: 0;
     inset-inline: 0;
     cursor: pointer;
     content: "";
-  }
-  
-  article h2 {
+}
+
+article h2 {
     margin: 0 0 18px 0;
     font-size: 1.9rem;
     letter-spacing: 0.06em;
     color: var(--title-color);
     transition: color 0.3s ease-out;
-  }
-  
-  figure {
+}
+
+figure {
     margin: 0;
     padding: 0;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-  }
-  
-  article img {
+}
+
+article img {
     max-width: 100%;
     transform-origin: center;
     transform: scale(var(--img-scale));
     transition: transform 0.4s ease-in-out;
-  }
-  
-  .article-body {
+}
+
+.article-body {
     padding: 24px;
-  }
-  
-  article a {
+}
+
+article a {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
     color: #28666e;
-  }
-  
-  article a:focus {
+}
+
+article a:focus {
     outline: 1px dotted #28666e;
-  }
-  
-  article a .icon {
+}
+
+article a .icon {
     min-width: 24px;
     width: 24px;
     height: 24px;
@@ -259,31 +259,17 @@ article {
     transform: translateX(var(--link-icon-translate));
     opacity: var(--link-icon-opacity);
     transition: all 0.3s;
-  }
-  
-  /* using the has() relational pseudo selector to update our custom properties */
-  article:has(:hover, :focus) {
+}
+
+article:has(:hover, :focus) {
     --img-scale: 1.1;
     --title-color: #28666e;
     --link-icon-translate: 0;
     --link-icon-opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  }
-  
-  
-  /************************ 
-  Generic layout (demo looks)
-  **************************/
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
+}
 
-  
-  .articles {
+.articles {
     display: grid;
     max-width: 1200px;
     margin-inline: auto;
@@ -291,35 +277,38 @@ article {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 24px;
     margin-bottom: 100px;
-  }
+}
+
+.continuar{
+    margin-top: 10px;
+}
 
 
 
-
-footer{
+footer {
     position: relative;
     display: grid;
-    grid-template-columns: 400px repeat(3,1fr);
+    grid-template-columns: 400px repeat(3, 1fr);
     gap: 2rem;
 }
 
-footer .coluna .logo{
+footer .coluna .logo {
     max-width: 100px;
     margin-bottom: 2rem;
 }
 
-footer .coluna p{
+footer .coluna p {
     color: #ccc;
     margin-bottom: 2rem;
 }
 
-footer .coluna .social{
+footer .coluna .social {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-footer .coluna .social a{
+footer .coluna .social a {
     color: #ccc;
     border: 1pc solid #ccc;
     padding: 5px 10px;
@@ -328,31 +317,31 @@ footer .coluna .social a{
     transition: all 0.3s ease;
 }
 
-footer .coluna .social a:hover{
+footer .coluna .social a:hover {
     color: #fff;
     background-color: #008000;
     border-color: #008000;
 }
 
-footer .coluna h4{
+footer .coluna h4 {
     color: #fff;
     margin-bottom: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-footer .coluna > a{
+footer .coluna>a {
     display: block;
     color: #ccc;
     margin-bottom: 1rem;
     transition: all 0.3s ease;
 }
 
-footer .coluna >a:hover{
+footer .coluna>a:hover {
     color: #0d272d;
 }
 
-.copyright{
+.copyright {
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
@@ -362,41 +351,46 @@ footer .coluna >a:hover{
 }
 
 @media (width < 900px) {
-    .nav-links{
+    .nav-links {
         display: none;
     }
-    header{
+
+    header {
         grid-template-columns: repeat(1, 1fr);
     }
-    header .imagem{
+
+    header .imagem {
         grid-area: 1/1/2/2;
     }
-    .sobre{
-        grid-template-columns: repeat(2,1fr);
+
+    .sobre {
+        grid-template-columns: repeat(2, 1fr);
     }
+
     article {
         container: card/inline-size;
-      }
+    }
+
     .article-body p {
         display: none;
     }
 
-    footer{
+    footer {
         grid-template-columns: 1fr 200px;
     }
 
 }
 
-@media (width <600px){
-    header .imagem::before{
+@media (width <600px) {
+    header .imagem::before {
         display: none;
     }
 
-    .sobre{
+    .sobre {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    footer{
+    footer {
         grid-template-columns: 1fr 150px;
     }
 }
